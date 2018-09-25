@@ -1,0 +1,60 @@
+package realExample.pojo;
+
+public class Mobile {
+    private Integer id;
+    private String model;
+    private Float price;
+    private Integer manufacturer;
+
+    public Mobile() {
+    }
+
+    public Mobile(Integer id, String model, Float price, Integer manufacturer) {
+        this.id = id;
+        this.model = model;
+        this.price = price;
+        this.manufacturer = manufacturer;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public Float getPrice() {
+        return price;
+    }
+
+    public void setPrice(Float price) {
+        this.price = price;
+    }
+
+    public Integer getManufacturer() {
+        return manufacturer;
+    }
+
+    public void setManufacturer(Integer manufacturer) {
+        this.manufacturer = manufacturer;
+    }
+
+    @Override
+    public String toString() {
+        return "Mobile{" +
+                "id=" + id +
+                ", model='" + model + '\'' +
+                ", price=" + price +
+                ", manufacturer=" + manufacturer +
+                '}';
+    }
+}
