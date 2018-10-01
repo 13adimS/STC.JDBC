@@ -23,9 +23,9 @@ public class ConnectionManagerJdbcImpl implements ConnectionManager {
         try {
             Class.forName("org.postgresql.Driver");
             connection = DriverManager.getConnection(
-                    "jdbc:postgresql://localhost:5432/mobile",
+                    "jdbc:postgresql://localhost:5432/postgres",
                     "postgres",
-                    "sa");
+                    "123");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException e) {

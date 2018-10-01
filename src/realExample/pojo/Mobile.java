@@ -55,6 +55,6 @@ public class Mobile {
                 ", model='" + model + '\'' +
                 ", price=" + price +
                 ", manufacturer=" + manufacturer +
-                '}';
+                "}";
     }
 }

@@ -1,5 +1,6 @@
 package realExample.dao;
 
+import realExample.pojo.Manufacturer;
 import realExample.pojo.Mobile;
 
 public interface MobileDao {
@@ -10,4 +11,6 @@ public interface MobileDao {
     public boolean updateMobileById(Mobile mobile);
 
     public boolean deleteMobileById(Integer id);
+
+    public String getManufacturerById(Mobile mobile);
 }
